@@ -1,0 +1,70 @@
+/* .App {
+  text-align: center;
+} */
+
+.title {
+  text-align: center;
+}
+
+/* input, button, label, select {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+} */
+
+form {
+  margin-bottom: 0;
+}
+
+.todo-input , .add-todo-btn {
+  width: 100%;
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.todo {
+  display: flex;
+  border: 1px solid;
+  border-radius: 4px;
+  height: 50px;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+.delete-todo-btn {
+  color: red;
+}
+
+input[type=checkbox] {
+  margin: 0;
+}
+
+.filter-btn-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.filter-btn-wrapper > span {
+  cursor: pointer;
+}
+
+.todos-count {
+  margin: 0 0 1rem 0;
+  text-align: center;
+  font-size: 19px;
+}
+
+.active-filter {
+  color: #33C3F0;
+  text-decoration: underline;
+}
